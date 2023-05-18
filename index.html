@@ -1,16 +1,213 @@
-<style>
-	.blink-bg{
-		color: #fff;
-		padding: 10px;
-		display: inline-block;
-		border-radius: 5px;
-		animation: blinkingBackground 1s infinite;
-	}
-	@keyframes blinkingBackground{
-		0%		{ background-color: #10c018;}
-		25%		{ background-color: #1056c0;}
-		50%		{ background-color: #ef0a1a;}
-		75%		{ background-color: #254878;}
-		100%	        { background-color: #04a1d5;}
-	}
-</style>
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @keyframes background {
+        0% {
+          background-color: white;
+        }
+        5% {
+          background-color: black;
+        }
+        10% {
+          background-color: rgb(250, 11, 218);
+        }
+        15% {
+          background-color: red;
+        }
+        20% {
+          background-color: rgb(11, 241, 222);
+        }
+        25% {
+          background-color: rgb(43, 43, 133);
+        }
+        30% {
+          background-color: rgb(110, 5, 230);
+        }
+        35% {
+          background-color: yellow;
+        }
+        40% {
+          background-color: brown;
+        }
+        45% {
+          background-color: rgba(255, 153, 0, 0.712);
+        }
+        50% {
+          background-color: grey;
+        }
+        55% {
+          background-color: rgb(116, 245, 116);
+        }
+        60% {
+          background-color: black;
+        }
+        65% {
+          background-color: white;
+        }
+        70% {
+          background-color: red;
+        }
+        75% {
+          background-color: purple;
+        }
+        80% {
+          background-color: rgb(168, 255, 168);
+        }
+        85% {
+          background-color: pink;
+        }
+        90% {
+          background-color: yellow;
+        }
+        95% {
+          background-color: brown;
+        }
+        100% {
+          background-color: orange;
+        }
+      }
+
+      @keyframes color {
+        0% {
+          color: orange;
+        }
+        5% {
+          color: white;
+        }
+        10% {
+          color: black;
+        }
+        15% {
+          color: pink;
+        }
+        20% {
+          color: red;
+        }
+        25% {
+          color: green;
+        }
+        30% {
+          color: blue;
+        }
+        35% {
+          color: purple;
+        }
+        40% {
+          color: yellow;
+        }
+        45% {
+          color: brown;
+        }
+        50% {
+          color: orange;
+        }
+        55% {
+          color: grey;
+        }
+        60% {
+          color: green;
+        }
+        65% {
+          color: black;
+        }
+        70% {
+          color: white;
+        }
+        75% {
+          color: red;
+        }
+        80% {
+          color: purple;
+        }
+        85% {
+          color: green;
+        }
+        90% {
+          color: pink;
+        }
+        95% {
+          color: yellow;
+        }
+        100% {
+          color: brown;
+        }
+      }
+
+      html {
+        animation-name: background;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        cursor: none;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+      }
+
+      h1 {
+        text-align: center;
+        padding-top: 50px;
+        font-family: comic, cursive;
+        font-size: 65px;
+        animation-name: color;
+        animation-duration: 0.6s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        cursor: none;
+        animation: AnimatedText linear 1s;
+        animation-iteration-count: 10000;
+        -transform-origin: 50% 50%;
+      }
+
+      @keyframes AnimatedText {
+        0% {
+          color: red;
+          transform: rotate(0deg) scaleX(1) scaleY(1);
+        }
+        10% {
+          color: green;
+          transform: rotate(-3deg) scaleX(0.8) scaleY(0.8);
+        }
+        20% {
+          color: purple;
+          transform: rotate(-3deg) scaleX(0.8) scaleY(0.8);
+        }
+        30% {
+          color: oarnge;
+          transform: rotate(3deg) scaleX(1.2) scaleY(1.2);
+        }
+        40% {
+          color: rgb(223, 11, 212);
+          transform: rotate(-3deg) scaleX(1.2) scaleY(1.2);
+        }
+        50% {
+          color: black;
+          transform: rotate(3deg) scaleX(1.2) scaleY(1.2);
+        }
+        60% {
+          color: white;
+          transform: rotate(-3deg) scaleX(1.2) scaleY(1.2);
+        }
+        70% {
+          color: rgb(5, 204, 240);
+          transform: rotate(3deg) scaleX(1.2) scaleY(1.2);
+        }
+        80% {
+          color: rgb(0, 255, 0);
+          transform: rotate(-3deg) scaleX(1.2) scaleY(1.2);
+        }
+        90% {
+          color: black;
+          transform: rotate(3deg) scaleX(1.2) scaleY(1.2);
+        }
+        100% {
+          color: rgb(163, 5, 255);
+          transform: rotate(3deg) scaleX(1.2) scaleY(1.2);
+        }
+      }
+    </style>
+  </head>
+  <body></body>
+</html>
