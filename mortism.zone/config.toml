@@ -1,0 +1,4 @@
+baseURL = 'https://mortism.zone/'
+languageCode = 'en-us'
+title = 'mortism.zone'
+theme = risotto
