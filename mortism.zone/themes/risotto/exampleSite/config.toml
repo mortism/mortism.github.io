@@ -1,7 +1,8 @@
-baseURL = "https://mortism.github.io"
+baseURL = "https://risotto.joeroe.io"
 theme = "risotto"
-title = "Welcome to mortism.zone"
-author = "mortism"
+title = "risotto demo"
+author = "Joe Roe"
+copyright = "© 2021–2022 [Joe Roe](https://joeroe.io) & [risotto contributors](https://github.com/joeroe/risotto/graphs/contributors)."
 paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -21,8 +22,8 @@ palette = "base16-dark"
 
 # Sidebar: about/bio
 [params.about]
-title = "Bio"
-description = "The hottest place for whatever this is going to be."
+title = "risotto"
+description = "A [hugo](https://gohugo.io) theme inspired by terminal ricing."
 logo = "images/rice.svg"
 
 # Sidebar: social links
@@ -33,12 +34,17 @@ logo = "images/rice.svg"
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
 title = "GitHub"
-url = "https://github.com/mortism"
+url = "https://github.com/joeroe/risotto"
 
 [[params.socialLinks]]
 icon = "fa-solid fa-envelope"
 title = "Email"
-url = "mailto:mortiiism@gmail.com"
+url = "mailto:example@example.com"
+
+[[params.socialLinks]]
+icon = "ai ai-orcid"
+title = "ORCID"
+url = "https://orcid.org/0000-0001-2345-6789"
 
 [menu]
 
