@@ -1,4 +1,4 @@
-baseURL = "https://mortism.github.io"
+baseURL = "https://mortism.github.io/"
 theme = "risotto"
 title = "Welcome to mortism.zone"
 author = "mortism"
