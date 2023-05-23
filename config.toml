@@ -23,7 +23,7 @@ palette = "base16-dark"
 [params.about]
 title = "Bio"
 description = "The musings of a factotum tech employee. A hobbyist musician, unapologetic nerd & self-discovery enthusiast.<br> <b>Truly</b>, an ethereal realm of introspection & hot takes. "
-logo = "images/ghost.svg"
+# logo = "resources/_gen/images/ghost.svg"
 
 # Sidebar: social links
 # Available icon sets:
