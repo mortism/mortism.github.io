@@ -23,7 +23,7 @@ palette = "base16-dark"
 [params.about]
 title = "Bio"
 description = "The hottest place for whatever this is going to be."
-logo = "images/rice.svg"
+logo = "images/ghost.svg"
 
 # Sidebar: social links
 # Available icon sets:
