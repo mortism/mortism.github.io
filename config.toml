@@ -22,7 +22,7 @@ palette = "base16-dark"
 # Sidebar: about/bio
 [params.about]
 title = "Bio"
-description = "The hottest place for whatever this is going to be."
+description = "The musings of a factotum tech employee. A hobbyist musician, unapologetic nerd & self-discovery enthusiast.<br> <b>Truly</b>, an ethereal realm of introspection & hot takes. "
 logo = "images/ghost.svg"
 
 # Sidebar: social links
