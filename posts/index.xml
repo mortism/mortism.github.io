@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to mortism.zone</title>
-    <link>https://mortism.github.io/</link>
-    <description>Recent content on Welcome to mortism.zone</description>
+    <title>Posts on Welcome to mortism.zone</title>
+    <link>https://mortism.github.io/posts/</link>
+    <description>Recent content in Posts on Welcome to mortism.zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 May 2023 21:05:27 +0100</lastBuildDate><atom:link href="https://mortism.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 May 2023 21:05:27 +0100</lastBuildDate><atom:link href="https://mortism.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
       <link>https://mortism.github.io/posts/test/</link>
