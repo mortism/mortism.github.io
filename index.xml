@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to mortism.zone</title>
+    <title></title>
     <link>https://mortism.github.io/</link>
-    <description>Recent content on Welcome to mortism.zone</description>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://mortism.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 May 2023 21:05:27 +0100</lastBuildDate><atom:link href="https://mortism.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>https://mortism.github.io/about/</link>
+      <link>https://mortism.github.io/about/about/</link>
       <pubDate>Tue, 23 May 2023 21:05:27 +0100</pubDate>
       
-      <guid>https://mortism.github.io/about/</guid>
+      <guid>https://mortism.github.io/about/about/</guid>
       <description>Hello! I guess I&amp;rsquo;ll have to introduce myself properly &amp;amp; tidy this place up a little. Bear with me.</description>
     </item>
     
